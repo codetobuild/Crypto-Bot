@@ -23,3 +23,10 @@ node-fetch
 # Installation
 npm install
 
+# Examples
+
+![>ping](./assets/ping.png)
+![>help](./assets/help.png)
+![>show bitcoin](./assets/coin.png)
+![>show trending](./assets/trending.png)
+![>price bitcoin usd](./assets/price.png)
