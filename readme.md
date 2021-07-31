@@ -1,5 +1,5 @@
 # CryptoBot 
-This is a Discord chat bot which can help you to get latest crypto coins details, prices and show trending coins. It uses public API to fetch data.
+This is a Discord chat bot which can help you to get the latest crypto coins details, prices and show trending coins. It uses public API to fetch data.
 
 # APIs 
 1. [Currency-api](https://github.com/fawazahmed0/currency-api) - Free Currency Exchange Rates API with 150+ Currencies & No Rate Limits

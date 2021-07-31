@@ -51,7 +51,7 @@ module.exports.getTrendingCoins = async () => {
     }
 }
 
-module.exports.getHelpText = ()=> `I support 4 commands:
+module.exports.getHelpText = ()=> `I support 5 commands:
     \n>ping  -To check if bot is responding
     \n>help  -To show all available commands
     \n>show <coin_name>  -To show coin details. Example: >show bitcoin
