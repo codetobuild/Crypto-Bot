@@ -1,7 +1,7 @@
 const {Client} = require('discord.js')
 const dotenv = require('dotenv')
 const fetch = require('node-fetch')
-
+const app = require('express')();
 
 // fetch api methods 
 const {
@@ -134,7 +134,16 @@ bot.on('message', (message) => {
 
 
 
+const PORT = process.env.PORT || 3000;
+app.set('PORT', PORT);
 
+app.all('*', (req,res)=>{
+    res.send('<h1>Hello! I am CryptoBot</h1>')
+})
+
+app.listen( PORT, ()=>{
+    console.log(`server is ready at PORT ${PORT}`)
+})
 
 
 
